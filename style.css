@@ -95,7 +95,7 @@ li:hover{
 
 .sezione-left{
     width: 25%;
-    height: 300px;
+    height: 400px;
     float: left;
 }
 
@@ -110,14 +110,14 @@ li:hover{
 
 .sezione-centrale{
     width: calc(50% - 20px);
-    height: 300px;
+    height: 400px;
     margin: 0 10px;
     float: left;
 }
 
 .sezione-right{
     width: 25%;
-    height: 300px;
+    height: 400px;
     float: right;
 }
 
