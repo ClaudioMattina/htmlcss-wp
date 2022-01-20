@@ -51,14 +51,16 @@ li:hover{
     border-radius: 10px;
     width: 100%;
     height: 400px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background-image: url("img/banner.jpg");
+    background-position-x: center;
+    background-size: 100%;
     position: relative;
 }
 
 .contenuto{
     position: absolute;
-    width: 50%;
+    width: 45%;
     left: 40px;
     bottom: 30px;
     color: white;
@@ -68,6 +70,7 @@ li:hover{
     width: 100%;
     background-color: rgb(54, 192, 0);
     padding-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .clearfix{
@@ -86,11 +89,24 @@ li:hover{
     margin-bottom: 30px;
 }
 
+.descrizione-sottocapitolo{
+    color: grey;
+}
+
 .sezione-left{
     width: 25%;
     height: 300px;
     float: left;
 }
+
+.contenitore-img{
+    height: 200px;
+    background-image: url("img/img-1.jpg");
+    border-radius: 10px;
+    background-size: contain;
+    background-position-x: center;
+}
+
 
 .sezione-centrale{
     width: calc(50% - 20px);
