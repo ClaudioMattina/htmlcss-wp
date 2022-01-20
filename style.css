@@ -14,6 +14,20 @@
     width: 100px ;
 }
 
+#lista-header{
+    padding-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+li{
+    display: inline;
+    color: gray;
+}
+
 .container{
     width: 80%;
     margin: auto;
