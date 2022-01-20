@@ -93,6 +93,11 @@ li:hover{
     color: grey;
 }
 
+h4{
+    margin-top: 10px;
+}
+
+
 .sezione-left{
     width: 25%;
     height: 400px;
@@ -100,13 +105,28 @@ li:hover{
 }
 
 .contenitore-img{
+    border-radius: 10px;
     height: 200px;
     background-image: url("img/img-1.jpg");
-    border-radius: 10px;
     background-size: contain;
     background-position-x: center;
 }
 
+.contenitore-img2{
+    border-radius: 10px;
+    height: 200px;
+    background-image:url("img/banner-2.jpg");
+    background-size: contain;
+    background-position-x: center;
+}
+
+.contenitore-img3{
+    border-radius: 10px;
+    height: 200px;
+    background-image:url("img/img-3.jpg");
+    background-size: contain;
+    background-position-x: center;
+}
 
 .sezione-centrale{
     width: calc(50% - 20px);
@@ -126,4 +146,9 @@ li:hover{
     height: 40px;
     background-color: rgb(143, 0, 161);
     margin-top: 5px;
+    text-align: center;
+}
+
+.heart{
+    color: red;
 }
