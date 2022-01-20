@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+#contenitore-logo{
+    border-right: 1px solid lightgray;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#logo{
+    width: 100px ;
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -12,10 +22,10 @@
 }
 
 .header{
-    background-color: rgb(165, 101, 112);
     width: 100%;
     height: 50px;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .section{
